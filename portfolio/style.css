@@ -10,6 +10,7 @@ body {
     color: #c3d5d5;
     scroll-behavior: smooth;
     text-shadow: #1a1b1b 1px 0 10px;
+    width: 100%;
 }
 
 /* Navbar Section */
@@ -162,16 +163,87 @@ li a:hover {
     justify-content: space-around;
     width: 90vw;
     margin-top: auto;
-    height: 55vh;
+    height: 65vh;
     margin-top:.5em ;
 }
 
-form {
-    margin-top: 15px;
-    padding: 5px;
-    font-size: 1.2em;
-    border: 1px dashed grey;
-    border-radius: 10px;
+pre{
+    margin: -34px;
+    padding: 4px;
+}
+.contact .right form .fields {
+    display: flex;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .right form .textarea {
+    height: 80px;
+    width: 100%;
+}
+
+.contact .right form .name {
+    margin-right: 10px;
+}
+
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus {
+    border-color: #b3b3b3;
+}
+
+.contact .right form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.contact .right form .button-area {
+    display: flex;
+    align-items: center;
+}
+
+.right form .button-area button {
+    color: #fff;
+    display: block;
+    width: 160px !important;
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: crimson;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.right form .button-area button:hover {
+    color: crimson;
+    background: none;
+}
+
+#subject{
+   
+        width: 39%;
+        height: 38px;
 }
 
 label {
@@ -187,10 +259,13 @@ label {
 /* Footer Section */
 footer {
     position: relative;
-    margin-top: 1em;
-    top: 110px;
-    left: 90px;
+    /* margin-top: 1em; */
+    /* top: 110px; */
+    /* left: 90px; */
+    text-align: center;
     display: flex;
     justify-content: space-between;
+    background: #000;
+    
 
 }

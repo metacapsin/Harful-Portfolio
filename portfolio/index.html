@@ -82,7 +82,7 @@
                           </div>
                           <h3>HTML</h3>
                           <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                            <div class="progress-bar bg-danger" style="width: 8%"></div>
+                            <div class="progress-bar bg-danger" style="width: 84%"></div>
                           </div>
                         </div>
                     </div>
@@ -111,20 +111,28 @@
     harfoolgujjar63@gmail.com
             </pre>
         </div>
-        <div class="right-contact">
-            <h2>Message me</h2>
-<form action="https://formspree.io/f/xdoqnpzz" method="post">
-    <label for="fname">First name:</label><br>
-    <input  required type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name:</label><br>
-    <input required  type="text" id="lname" name="lname"><br><br>
-    <label for="email">Email:</label><br>
-    <input required type="email" id="email" name="email"><br><br>
-    <label for="subject">Subject:</label><br>
-    <textarea id="subject" name="subject" rows="4" cols="50"></textarea><br><br>
-    <input  required type="submit" value="Submit">
-    
-</form>
+        
+        <div class="column right">
+            <div class="text"> <h1>Message me</h1> </div>
+            <form action="https://formspree.io/f/xdoqnpzz" method="POST">
+                <div class="fields">
+                    <div class="field name">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="field email">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <input type="text" placeholder="Subject" required>
+                </div>
+                <div class="field textarea">
+                    <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                </div>
+                <div class="button-area">
+                    <button type="submit">Send message</button>
+                </div>
+            </form>
         </div>
         </div>
    
@@ -145,5 +153,6 @@
               typeSpeed: 115,
             });
             </script>
+            
     </body>
 </html>
