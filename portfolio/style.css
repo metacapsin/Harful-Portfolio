@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poltawski Nowy', serif;
+    background: rgb(15, 34, 41);
+    color: #c3d5d5;
+    scroll-behavior: smooth;
+    text-shadow: #1a1b1b 1px 0 10px;
+}
+
+/* Navbar Section */
+.navbar {
+    font-family: 'Poltawski Nowy', serif;
+    display: flex;
+    background: #3b5e6e;
+    box-shadow: inset -21px -47px 79px black;
+    justify-content: space-around;
+    width: 100vw;
+    border-radius: 9px;
+    align-items: center;
+    position: fixed;
+}
+
+.left img {
+    width: 150px;
+    height: 100px;
+    filter: brightness(100);
+}
+
+.left img:hover {
+    filter: brightness(0%);
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    font-size: 2rem;
+    list-style: none;
+    margin: 0 25px;
+}
+
+li a {
+    text-decoration: none;
+    color: #c3d5d5;
+}
+
+li a:hover {
+    color: #454646;
+    transform: rotate(90deg);
+}
+
+/* Main Section */
+/* Home Page */
+.home {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.5em;
+    height: 90vh;
+    align-items: center;
+}
+
+.intro {
+    color: #454646;
+}
+
+/* About Section */
+.name {
+    color: purple;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-around;
+    margin: 65px 0;
+    align-items: center;
+    opacity: 12px;
+}
+
+#hero div {
+    width: 40%;
+}
+
+.left-section {
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.right-section img {
+    width: auto;
+    height: 500px;
+    box-shadow: 1px 14px 60px 2px rgb(41, 41, 121);
+    border-radius: 100px;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    background: #3cdcf1;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: 500;
+    margin: 6px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #081515;
+    transition: 0.2s all ease-in-out;
+}
+
+.btn:hover {
+    box-shadow: inset 2px 3px 22px;
+    background: #454646;
+    color: rgb(126, 191, 186);
+    border: 2px solid #454646;
+}
+
+.btn:active {
+    background: #c9d0d0;
+    color: black;
+}
+
+.aboutme {
+    max-width: 80vw;
+    margin: auto;
+    font-size: 3em;
+    margin-top: 20px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #454646;
+}
+
+/* Skills Section */
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4em;
+    height: 90vh;
+}
+
+.left {
+    text-align: center;
+    width: 40%;
+}
+
+.right {
+    width: 40%;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    margin-top: auto;
+    height: 55vh;
+    margin-top:.5em ;
+}
+
+form {
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 1.2em;
+    border: 1px dashed grey;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.text {
+    font-size: 1.5em;
+    
+}
+
+/* Footer Section */
+footer {
+    position: relative;
+    margin-top: 1em;
+    top: 110px;
+    left: 90px;
+    display: flex;
+    justify-content: space-between;
+
+}
