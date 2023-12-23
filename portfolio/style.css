@@ -130,13 +130,40 @@ li a:hover {
     color: black;
 }
 
+.btn a {
+    text-decoration: none;
+    display: inline-block;
+    /* padding: 10px 30px; */
+    background: #3cdcf1;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: 500;
+    margin: 6px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #081515;
+    transition: 0.2s all ease-in-out;
+}
+
+.btn a:hover {
+    box-shadow: inset 2px 3px 22px;
+    background: #454646;
+    color: rgb(126, 191, 186);
+    border: 2px solid #454646;
+}
+
+.btn a:active {
+    background: #c9d0d0;
+    color: black;
+}
+
 .aboutme {
     max-width: 80vw;
     margin: auto;
     font-size: 3em;
     margin-top: 20px;
     font-family: 'Mochiy Pop One', sans-serif;
-    color: #454646;
+    color: #a0d6d6;
+    
 }
 
 /* Skills Section */
@@ -164,7 +191,7 @@ li a:hover {
     width: 90vw;
     margin-top: auto;
     height: 65vh;
-    margin-top:.5em ;
+    margin-top:1.5em ;
 }
 
 pre{
@@ -264,8 +291,10 @@ footer {
     /* left: 90px; */
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background: #000;
-    
-
+}
+footer a{
+    color:#FFF;
+    text-decoration: none;
 }
