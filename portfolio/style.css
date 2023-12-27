@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Poltawski Nowy', serif;
-    background: rgb(15, 34, 41);
-    color: #c3d5d5;
+    background-image: linear-gradient(rgb(56, 71, 94) , black);
+    color: #f6f7f7;
     scroll-behavior: smooth;
     text-shadow: #1a1b1b 1px 0 10px;
     width: 100%;
@@ -17,7 +17,7 @@ body {
 .navbar {
     font-family: 'Poltawski Nowy', serif;
     display: flex;
-    background: #3b5e6e;
+    /* background: rgb(56, 71, 94); */
     box-shadow: inset -21px -47px 79px black;
     justify-content: space-around;
     width: 100vw;
